@@ -1,0 +1,19 @@
+.user_form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 100px;
+}
+.forms>*{
+    margin-top: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: white;
+}

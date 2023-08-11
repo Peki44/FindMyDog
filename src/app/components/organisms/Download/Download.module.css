@@ -1,0 +1,30 @@
+.download{
+    min-height: 600px;
+    margin: 30px 0;
+    padding-left: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    /* display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    border-style: solid; */
+}
+/* .grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+@media (max-width:820px) {
+    .download{
+        margin: 90px 0;
+        padding: 0;
+        flex-direction: column;
+    }
+}
+@media (max-width:400px) {
+    .download{
+        margin: 70px 0;
+    }
+}

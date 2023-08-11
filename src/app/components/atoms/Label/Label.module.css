@@ -1,0 +1,38 @@
+.label{
+    margin: 0;
+}
+.label.regular{
+    font-weight:normal;
+}
+.label.bold{
+    font-weight: bold;
+}
+.label.white{
+    color: #FFFFFF;
+}   
+.label.blue{
+    color: #00A0D4;
+}
+.label.black{
+    color: #000000;
+}
+.label._16{
+    font-size: 16px;
+}
+.label._20{
+    font-size: 20px;
+}
+.label._24{
+    font-size: 24px;
+}
+@media (max-width:400px) {
+    .label._16{
+        font-size: 16px;
+    }
+    .label._20{
+        font-size: 20px;
+    }
+    .label._24{
+        font-size: 20px;
+    }
+}
