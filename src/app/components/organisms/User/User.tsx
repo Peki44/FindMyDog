@@ -1,12 +1,11 @@
 import Navigation from "../../molecules/Navigation";
-import User_form from "../../molecules/User_form";
+import UserForm from "../../molecules/UserForm";
 import styles from './User.module.css';
 
 const User=()=>{
     return <div className={styles.user}>
         <Navigation></Navigation>
-        <User_form></User_form>        
-        
+        <UserForm></UserForm> 
     </div>
 }
 export default User;

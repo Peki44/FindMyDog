@@ -39,10 +39,10 @@
 @media (max-width:400px) {
     .text{
         text-align: center;
-        margin-top: 50px;
+        margin-top: 30px;
         width: 100%;
     }
     .image{
-        margin-left: 70px;
+        margin-left: 60px;
     }
 }

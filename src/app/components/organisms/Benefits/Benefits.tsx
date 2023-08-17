@@ -4,7 +4,7 @@ import Benefit_card from "../../molecules/Benefit_card";
 import styles from './Benefits.module.css';
 
 const Benefits=()=>{
-    return <div className={styles.benefits}>
+    return <div id="benefits" className={styles.benefits}>
         <Heading text="Why to use this app?" size="_36" strong="extrabold" color="white"></Heading>
         <Label text="Here are some benefits of FindMyDog" size="_24" strong="bold" color="white"></Label>
         <div className={styles.benefit_cards}>

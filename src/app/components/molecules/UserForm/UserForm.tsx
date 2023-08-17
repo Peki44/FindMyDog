@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Heading from "../../atoms/Heading";
-import Information_input from "../../atoms/Information_input";
 import Label from "../../atoms/Label";
-import styles from './User_form.module.css';
+import styles from './UserForm.module.css';
+import InfoLabel from "../../atoms/InfoLabel";
 
-const Email_form=()=>{
+const UserForm=()=>{
     return <div className={styles.user_form}>
         <Heading text="Rex" size="_36" strong="bold"></Heading>
         <div className={styles.image}>
@@ -12,16 +12,17 @@ const Email_form=()=>{
         </div>
         <div className={styles.forms}>
             <Label text='Breed' strong="bold" color="white" size="_16"></Label>
-            <Information_input type="text" placeholder="" id="breed"></Information_input>
+            <InfoLabel text="Breed" id="breed"></InfoLabel>
+            {/* <Information_input type="text" placeholder="" id="breed"></Information_input> */}
             <Label text='Owner' strong="bold" color="white" size="_16"></Label>
-            <Information_input type="text" placeholder="" id="owner"></Information_input>
+            <InfoLabel text="Owner" id="owner"></InfoLabel>
             <Label text='Phone' strong="bold" color="white" size="_16"></Label>
-            <Information_input type="text" placeholder="" id="phone"></Information_input>
+            <InfoLabel text="Phone" id="phone"></InfoLabel>
             <Label text='Email' strong="bold" color="white" size="_16"></Label>
-            <Information_input type="email" placeholder="" id="email"></Information_input>
+            <InfoLabel text="Email" id="email"></InfoLabel>
             <Label text='Address' strong="bold" color="white" size="_16"></Label>
-            <Information_input type="text" placeholder="" id="address"></Information_input>
+            <InfoLabel text="Address" id="address"></InfoLabel>
         </div>
     </div>
 }
-export default Email_form;
+export default UserForm;

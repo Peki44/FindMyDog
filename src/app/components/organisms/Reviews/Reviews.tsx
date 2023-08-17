@@ -5,7 +5,7 @@ import Review_card from "../../molecules/Review_card";
 import styles from './Reviews.module.css';
 
 const Reviews=()=>{
-    return <div className={styles.reviews}>
+    return <div id="reviews" className={styles.reviews}>
         <Heading text="What others say about this app?!" size="_36" strong="extrabold" color="blue"></Heading>
         <Label text="Here are some reviews about this app" size="_24" strong="bold" color="blue"></Label>
         <div className={styles.review_cards}>

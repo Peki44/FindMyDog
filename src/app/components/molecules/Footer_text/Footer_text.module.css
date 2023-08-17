@@ -15,7 +15,6 @@
   .row{
     flex-direction: column;
     height: 550px;
-    justify-content: space-between;
-    margin-left: 150px;
+    width: 30%;
   }
 }

@@ -21,9 +21,10 @@
 }
 @media (max-width:400px) {
     .section{
-        margin-top: 50px;
+        margin-top: 30px;
+        justify-content: space-around;
     }
     .image{
-        margin-left: 80px;
+        margin-left: 40px;
     }
 }

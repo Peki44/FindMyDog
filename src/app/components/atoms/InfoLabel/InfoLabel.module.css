@@ -1,0 +1,17 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 314px;
+    height: 46px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 2px 2px 4px 0px #BCE3EF inset, -3px -3px 4px 0px #BCE3EF inset, 0px 8px 15px 0px rgba(0, 0, 0, 0.10);
+}
+.label{
+    font-size: 18px;
+    font-weight: bold;
+}
