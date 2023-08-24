@@ -34,7 +34,7 @@ const UserForm = ({ data }: UserFormProps) => {
                 text="Breed"
                 strong="bold"
                 color="white"
-                size="_16"
+                size="_20"
               ></Label>
             )}
             {data.breed && <InfoLabel text={data.breed} id="breed" src="/paw.svg"></InfoLabel>}
@@ -43,7 +43,7 @@ const UserForm = ({ data }: UserFormProps) => {
                 text="Owner"
                 strong="bold"
                 color="white"
-                size="_16"
+                size="_20"
               ></Label>
             )}
             {data.owner && <InfoLabel text={data.owner} id="owner" src="/boy.svg"></InfoLabel>}
@@ -52,7 +52,7 @@ const UserForm = ({ data }: UserFormProps) => {
                 text="Phone"
                 strong="bold"
                 color="white"
-                size="_16"
+                size="_20"
               ></Label>
             )}
             {data.phone && <InfoLabel text={data.phone} id="phone" src="/phoneCall.svg"></InfoLabel>}
@@ -61,7 +61,7 @@ const UserForm = ({ data }: UserFormProps) => {
                 text="Email"
                 strong="bold"
                 color="white"
-                size="_16"
+                size="_20"
               ></Label>
             )}
             {data.email && <InfoLabel text={data.email} id="email" src="/mail.svg"></InfoLabel>}
@@ -70,7 +70,7 @@ const UserForm = ({ data }: UserFormProps) => {
                 text="Address"
                 strong="bold"
                 color="white"
-                size="_16"
+                size="_20"
               ></Label>
             )}
             {data.address && (

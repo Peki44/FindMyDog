@@ -14,7 +14,7 @@
 @media (max-width:415px) {
   .row{
     flex-direction: column;
-    align-items: center;
+    margin-left: 15%;
     height: 550px;
     width: 50%;
   }
