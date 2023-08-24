@@ -5,10 +5,13 @@ import Newsletter from "@/app/components/organisms/Newsletter";
 import About from "@/app/components/organisms/About";
 import Header from "@/app/components/organisms/Header";
 import Footer from "@/app/components/organisms/Footer";
+import { Nunito } from "next/font/google";
+
+const inter = Nunito({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main >
+    <main className={inter.className}>
       <Header></Header>
       <About></About>
       <Download></Download>

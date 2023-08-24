@@ -37,7 +37,6 @@ const UserForm = ({ data }: UserFormProps) => {
               ></Label>
             )}
             {data.breed && <InfoLabel text={data.breed} id="breed" src="/paw.svg"></InfoLabel>}
-            {/* <Information_input type="text" placeholder="" id="breed"></Information_input> */}
             {data.owner && (
               <Label
                 text="Owner"
