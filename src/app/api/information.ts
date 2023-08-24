@@ -1,5 +1,4 @@
 'use client'
-import React, { useEffect, useState } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, onValue, child, get } from "firebase/database";
 
@@ -17,24 +16,19 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-// export async function getInformation(userId : Number, dogId : Number) {
-//     const db = getDatabase(app);
-//     const usersRef = ref(db, 'Users/' + userId + '/Dogs/' + dogId); // TODO: fix this path
-//     onValue(usersRef, (snapshot) => {
-//       const data = snapshot.val();
-//       console.log('blala',data)
-//       // TODO: do something with the dog information
+export async function getInformation(userId : String, dogId : String) {
+  const db = getDatabase(app);
+  const usersRef = ref(db, 'Users/' + userId + '/Dogs/' + dogId);
+  let result = null;
 
-//       return {
-//         name: data.name,
-//         breed: data.breed,
-//         age: data.age,
-//         weight: data.weight,
-//         owner: data.owner,
-//         address: data.address,
-//       }
-//     });
-// }
+  onValue(usersRef, (snapshot) => {
+    const data = snapshot.val();
+    result = data;
+    return data;
+  });
+
+  return result;
+}
 
 ////////////////////////////////////////////////////////////////////////////////////
 

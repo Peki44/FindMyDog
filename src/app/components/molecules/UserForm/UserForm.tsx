@@ -4,24 +4,29 @@ import Label from "../../atoms/Label";
 import styles from './UserForm.module.css';
 import InfoLabel from "../../atoms/InfoLabel";
 
-const UserForm=()=>{
+export interface UserFormProps {
+    data?: any;
+}   
+
+const UserForm=(
+    {data}:UserFormProps
+)=>{
     return <div className={styles.user_form}>
-        <Heading text="Rex" size="_36" strong="bold"></Heading>
+        <Heading text={data.dogsName} size="_36" strong="bold"></Heading>
         <div className={styles.image}>
-            <Image src="/dogSitting.png" alt="dog" width={100} height={120} id="image"></Image>
+            <Image src={data.profileImageUri} alt="dog" width={160} height={160} id="image" className={styles.photo}></Image>
         </div>
         <div className={styles.forms}>
             <Label text='Breed' strong="bold" color="white" size="_16"></Label>
-            <InfoLabel text="Breed" id="breed"></InfoLabel>
-            {/* <Information_input type="text" placeholder="" id="breed"></Information_input> */}
+            <InfoLabel text={data.breed} id="breed" src="/paw.svg"></InfoLabel>
             <Label text='Owner' strong="bold" color="white" size="_16"></Label>
-            <InfoLabel text="Owner" id="owner"></InfoLabel>
+            <InfoLabel text={data.owner} id="owner" src="/boy.svg"></InfoLabel>
             <Label text='Phone' strong="bold" color="white" size="_16"></Label>
-            <InfoLabel text="Phone" id="phone"></InfoLabel>
+            <InfoLabel text={data.phone} id="phone" src="/phoneCall.svg"></InfoLabel>
             <Label text='Email' strong="bold" color="white" size="_16"></Label>
-            <InfoLabel text="Email" id="email"></InfoLabel>
+            <InfoLabel text={data.email} id="email" src="/mail.svg"></InfoLabel>
             <Label text='Address' strong="bold" color="white" size="_16"></Label>
-            <InfoLabel text="Address" id="address"></InfoLabel>
+            <InfoLabel text={data.address} id="address" src="/dogHouse.svg"></InfoLabel>
         </div>
     </div>
 }
