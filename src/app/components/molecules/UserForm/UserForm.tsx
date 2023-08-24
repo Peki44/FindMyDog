@@ -21,9 +21,10 @@ const UserForm = ({ data }: UserFormProps) => {
               <Image
                 src={data.profileImageUri}
                 alt="dog"
-                width={100}
-                height={120}
+                width={170}
+                height={170}
                 id="image"
+                className={styles.photo}
               ></Image>
             </div>
           )}
