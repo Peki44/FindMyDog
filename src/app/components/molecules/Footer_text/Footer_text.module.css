@@ -11,10 +11,11 @@
   }
 }
 
-@media (max-width:400px) {
+@media (max-width:415px) {
   .row{
     flex-direction: column;
+    align-items: center;
     height: 550px;
-    width: 30%;
+    width: 50%;
   }
 }

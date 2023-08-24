@@ -8,7 +8,7 @@
     background: #FFF;
     box-shadow: 2px 2px 4px 0px rgba(102, 218, 255, 0.50) inset, -2px -2px 4px 0px rgba(102, 218, 255, 0.50) inset, 0px 4px 4px 0px rgba(180, 237, 255, 0.75);
 }
-@media (max-width:400px){
+@media (max-width:415px){
     .input{
         width:270px;
         height: 38px;

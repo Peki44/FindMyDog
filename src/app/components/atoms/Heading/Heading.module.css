@@ -31,7 +31,7 @@
 .heading._48{
     font-size: 48px;
 }
-@media (max-width:400px) {
+@media (max-width:415px) {
     .heading._24{
         font-size: 24px;
     }

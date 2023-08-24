@@ -8,9 +8,7 @@ const About=()=>{
         <About_us></About_us>
         <div className={styles.section}>
             <Steps></Steps>
-            <div className={styles.image}>
-                <Image src="/womenWithDog.png" alt="women with dog" width={350} height={260}></Image>
-            </div>
+            <Image className={styles.image} src="/womenWithDog.png" alt="women with dog" width={350} height={260}></Image>
         </div>
     </div>
 }

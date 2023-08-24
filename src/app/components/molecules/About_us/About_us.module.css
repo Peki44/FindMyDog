@@ -26,7 +26,7 @@
     color: #0088B3;
     font-weight: 800;
 }
-@media (max-width:400px) {
+@media (max-width:415px) {
     .about{
         padding: 40px 20px 15px;
         width: 80%;

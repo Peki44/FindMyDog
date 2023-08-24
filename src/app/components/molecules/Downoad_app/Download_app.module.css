@@ -21,9 +21,9 @@
         margin-top: 50px;
     }
 }
-@media (max-width:400px) {
+@media (max-width:415px) {
     .download{
-        width: 100%;
+        width: 90%;
     }
     /* .download > *{
         margin-bottom: 30px;
@@ -31,8 +31,8 @@
     .image{
         width: 80px;
         height: 140px;
-        top: 140px;
-        right: 40px;
+        top: 145px;
+        right: 26px;
         margin-bottom: 0;
     }
 }

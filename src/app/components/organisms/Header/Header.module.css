@@ -36,13 +36,16 @@
         align-items: center;
     }
 }
-@media (max-width:400px) {
+@media (max-width:415px) {
     .text{
         text-align: center;
-        margin-top: 30px;
+        margin-top: 20px;
         width: 100%;
     }
     .image{
+        margin-top: 70px;
         margin-left: 60px;
+        width: 315px;
+        height: 275px;
     }
 }
