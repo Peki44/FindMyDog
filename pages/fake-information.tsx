@@ -1,6 +1,6 @@
 import Footer from "@/app/components/organisms/Footer";
 import User from "@/app/components/organisms/User";
-import { getInformation } from "@/app/api/information";
+import { getInformation } from "./api/information";
 
 
 export interface HomeProps {

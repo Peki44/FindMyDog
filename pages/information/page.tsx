@@ -1,4 +1,4 @@
-import { getInformation } from "../../src/app/api/information";
+import { getInformation } from "../api/information";
 import Footer from "../../src/app/components/organisms/Footer"
 import User from "../../src/app/components/organisms/User"
 
