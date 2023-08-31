@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Pen from "../public/bluePen.png";
 import Button from "../../atoms/Button";
 import Input from "../../atoms/Input";
 import Label from "../../atoms/Label";
@@ -7,7 +6,6 @@ import styles from './Email_form.module.css';
 
 const Email_form=()=>{
     return <div className={styles.email_form}>
-        {/* <Image src={Pen} alt="pen"/> */}
         <div className={styles.forms}>
             <Label text='Enter your name:' strong="bold" color="black" size="_16"></Label>
             <Input type="email" placeholder="Enter name" id="name"></Input>

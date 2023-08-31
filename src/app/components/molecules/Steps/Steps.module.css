@@ -17,13 +17,14 @@
 
 @media (max-width:820px) {
     .steps{
-        margin-left: 50px;
+        margin-left: 120px;
+        width: 70%;
     }
 }
 
 @media (max-width:415px) {
     .steps{
-        margin-left: 15px;
+        margin-left: 20px;
         width: 100%;
     }
     .row{

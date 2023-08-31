@@ -51,7 +51,7 @@
 
 @media (max-width:415px){
     .heading > *{
-        padding: 0 20px;
+        padding: 0 10px;
         margin-bottom: 10px;
     }
 }
